@@ -1,0 +1,255 @@
+/* font */
+@font-face {
+  font-family: 'Corsa Grotesk';
+  src: local('Corsa Grotesk Regular'), local('Corsa-Grotesk-Regular'),
+    url('font/CorsaGrotesk-Regular.woff2') format('woff2'),
+    url('font/CorsaGrotesk-Regular.woff') format('woff'),
+    url('font/CorsaGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT Bold';
+  src: url('FuturaPT-Bold.eot');
+  src: url('FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/FuturaPT-Bold.woff') format('woff'),
+    url('font/FuturaPT-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Corsa Grotesk', Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+a:hover {
+  color: #4E89FA;
+}
+
+section {
+  margin: 7vh 0;
+}
+
+.container-center {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-container__title {
+  font-size: 40px;
+  font-family: 'Futura PT Bold', Arial, sans-serif;
+  color: #4E89FA;
+}
+
+.main-container__content {
+  font-size: 27px;
+  margin: 3vh;
+}
+
+.main-container__content span {
+  color: #4E89FA;
+  font-weight: bold;
+}
+
+.main-container__link {
+  font-size: 21px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.contact__img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 3vh 0;
+}
+
+.contact-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+
+}
+
+.contact-box__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.contact-box__col:nth-child(2) {
+  font-weight: bold;
+  color: #4E89FA;
+}
+
+.contact-box__col div {
+  padding: 5px 10px;
+}
+
+.contact-box__col div a {
+  text-decoration: none;
+  color: #4E89FA;
+}
